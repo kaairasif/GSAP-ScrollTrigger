@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.section {
+    min-height: 500px;
+    background: #e5e5e5;
+    margin-bottom: 50px;
+    padding: 20px;
+    position: relative;
+}
+h1, .ghost {
+    text-align: center;
+    padding: 10px 20px;
+    background: fuchsia;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 60px;
+    border-radius: 10px;
+}
+.ghost {
+    background: #555;
+}
+.three, .ghost {
+    position: absolute;
+    left: 50%;
+}
+h1.highlight {
+    background: limegreen;
+}
+.relative {
+    position: relative;
+}
+.check-1 {
+    position: fixed;
+    top: 50%;
+    background: coral;
+    padding: 30px 15px;
+    font-size: 30px;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.progress {
+    max-width: 140px;
+    margin: 0 auto 100px auto;
+}
+.progress__parent {
+    height: 20px;
+    width: 100%;
+    background: #fff;
+}
+.progress__child {
+    width: 1%;
+    height: 100%;
+    background: coral;
+    display: block;
+}
